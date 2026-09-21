@@ -1,106 +1,128 @@
-# GitHub World Records
+# GitHub World Records 🏆
 
-> Tracking the biggest, oldest, fastest and strangest records on GitHub.
+> A public leaderboard of the biggest, strangest and most extreme records on GitHub.
 
-[![Update records](https://github.com/Berserk-hub150/github-world-records/actions/workflows/update-records.yml/badge.svg)](https://github.com/Berserk-hub150/github-world-records/actions/workflows/update-records.yml)
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+**Last checked:** September 21, 2026
 
-**GitHub World Records** is a community-maintained, reproducible collection of notable GitHub records.
+> This project is community-maintained and is **not affiliated with GitHub or Guinness World Records**. Counts change constantly, so values are snapshots.
 
-This project is **not affiliated with GitHub or Guinness World Records**.
+---
 
-## Records
+## 👑 User Records
 
-<!-- RECORDS:START -->
-Run the `Update records` GitHub Action to populate live records.
-<!-- RECORDS:END -->
+### 🥇 Most followers
 
-## Record types
+**[Linus Torvalds (@torvalds)](https://github.com/torvalds)** — **~324,000 followers**
 
-| Category | Discovery method |
-|---|---|
-| Most starred repository | GitHub Search API |
-| Most forked repository | GitHub Search API |
-| Most followed user | GitHub Search API + User API |
-| Most public repositories | GitHub Search API + User API |
-| Most following | Candidate-based verification |
-| Most commits — any repository | Candidate-based verification |
-| Most commits — real project | Candidate-based verification |
+Creator of Linux and Git. This is the largest follower count among individual GitHub developers currently tracked.
 
-Some GitHub metrics can be globally sorted through the API. Others cannot. For those, this repository clearly labels the result as **candidate-based** instead of pretending it is a mathematically proven global maximum.
+### 🚀 Most following
 
-## Current seed records
+**[standardgalactic](https://github.com/standardgalactic)** — **~1.3 MILLION following**
 
-Two commit records are included as initial verified candidates:
+Also has roughly **28.7k followers**. This is the largest GitHub following count currently found by this project.
 
-- `virejdasani/Commited` — **3,000,007 commits**. This is an intentionally generated record repository and is classified as **synthetic / record attempt**.
-- `chromium/chromium` — a real software project with more than **1.8 million commits** on its GitHub mirror as of September 2026.
+> Because GitHub does not provide an official global "sort by following" leaderboard, this record is marked as a **current observed record** rather than an officially exhaustive GitHub ranking.
 
-The updater re-checks candidates where GitHub's API allows a reliable count.
+---
 
-## Verification rules
+## 🌍 Most-Followed GitHub People
 
-A record must include:
+| # | Developer | Followers |
+|---:|---|---:|
+| 🥇 1 | **[Linus Torvalds (@torvalds)](https://github.com/torvalds)** | **~324k** |
+| 🥈 2 | **[Andrej Karpathy (@karpathy)](https://github.com/karpathy)** | **~223k** |
+| 🥉 3 | **[Gustavo Guanabara (@gustavoguanabara)](https://github.com/gustavoguanabara)** | **~116k** |
+| 4 | **[Evan You (@yyx990803)](https://github.com/yyx990803)** | **~111k** |
+| 5 | **[Dan Abramov (@gaearon)](https://github.com/gaearon)** | **~93.7k** |
+| 6 | **[Ruan YiFeng (@ruanyf)](https://github.com/ruanyf)** | **~87.5k** |
+| 7 | **[Sindre Sorhus (@sindresorhus)](https://github.com/sindresorhus)** | **~84.1k** |
+| 8 | **[Brad Traversy (@bradtraversy)](https://github.com/bradtraversy)** | **~76.6k** |
+| 9 | **[Jake Wharton (@JakeWharton)](https://github.com/JakeWharton)** | **~68.7k** |
 
-1. A public GitHub URL.
-2. A measurable value.
-3. A source or reproducible API method.
-4. A verification timestamp.
-5. A classification such as `global-search`, `candidate-based`, or `manual`.
-6. For unusual records, enough evidence for another person to reproduce the result.
+These are current public counts observed around September 21, 2026. The list is intended to evolve as new records are found.
 
-No screenshots alone. No unverifiable claims.
+---
 
-## Submit a record
+## 📦 Repository Records
 
-Found something bigger?
+| Record | Repository | Current record |
+|---|---|---:|
+| ⭐ **Most stars** | **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | **~548.5k stars** |
+| 🍴 **Most forks** | **[jhudsl/intro_to_data_science](https://github.com/jhudsl/intro_to_data_science)** / historical `datasharing` dataset family | **~241.8k forks** |
+| 💾 **Most commits — record attempt** | **[virejdasani/Commited](https://github.com/virejdasani/Commited)** | **3,000,007 commits** |
+| 🏗️ **Huge real-project commit history** | **[chromium/chromium](https://github.com/chromium/chromium)** | **1.8M+ commits** |
+| 🐛 **Most open issues currently tracked** | **[996icu/996.ICU](https://github.com/996icu/996.ICU)** | **~16.7k open issues** |
 
-Open a **Record Claim** issue and provide the holder, value, GitHub URL, evidence, and verification method.
+### 💾 3,000,007 commits
 
-Pull requests that add better discovery methods are especially welcome.
+**[virejdasani/Commited](https://github.com/virejdasani/Commited)** was intentionally created as a GitHub commit-record project and GitHub displays **3,000,007 commits**.
 
-## Automated updates
+It used automated empty commits, so we keep it separate from normal software projects.
 
-The workflow in `.github/workflows/update-records.yml` runs daily and can also be triggered manually.
+### 🏗️ Real software project
 
-It:
+**[chromium/chromium](https://github.com/chromium/chromium)** is the official Chromium GitHub mirror and has a commit history above **1.8 million commits**.
 
-1. queries GitHub for globally sortable metrics;
-2. checks curated candidates for non-sortable metrics;
-3. writes `data/records.json`;
-4. regenerates the Records table in this README;
-5. commits changes only when values changed.
+---
 
-## Add candidates
+## 🤯 Weird / Extreme Records
 
-Edit `data/candidates.json`.
+| Record | Holder | Value |
+|---|---|---:|
+| Most people followed currently found | **[standardgalactic](https://github.com/standardgalactic)** | **~1.3M** |
+| First repo in this list to exceed 3M commits | **[virejdasani/Commited](https://github.com/virejdasani/Commited)** | **3,000,007** |
+| Most-starred repo currently tracked | **[build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | **~548.5k** |
+| Most-followed individual currently tracked | **[torvalds](https://github.com/torvalds)** | **~324k** |
 
-```json
-{
-  "most_following": ["example-user"],
-  "most_commits_any": ["virejdasani/Commited"],
-  "most_commits_real": ["chromium/chromium"]
-}
-```
+---
 
-Candidate-based categories are intentionally transparent: a better candidate can replace the current holder as soon as it is verified.
+## 🔎 How records are accepted
 
-## Roadmap
+A record should have:
 
-- More user records
-- More repository records
-- Contributor and issue/PR records
-- Historical snapshots
-- Record history / previous holders
-- GitHub Pages leaderboard
-- JSON API for other projects
-- ClickHouse-based discovery for metrics unavailable in GitHub Search
+- a public GitHub profile/repository;
+- a measurable value visible publicly;
+- a source or reproducible way to verify it;
+- a date when it was checked.
 
-## Contributing
+If GitHub does not expose a true global ranking for a metric, the README says **currently found**, **currently tracked**, or **observed record** instead of pretending the result is mathematically exhaustive.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+---
 
-## License
+## 🏁 Submit a new world record
 
-MIT.
+Think you found someone with:
+
+- more followers?
+- more following?
+- more public repositories?
+- more commits?
+- a crazier contribution streak?
+- a repository with more stars or forks?
+- another measurable GitHub record?
+
+**[Open a Record Claim](https://github.com/Berserk-hub150/github-world-records/issues/new)** and include the GitHub link + evidence.
+
+---
+
+## 📚 Sources
+
+Primary values are checked against public GitHub pages. Useful cross-checks include:
+
+- [GitHub — torvalds](https://github.com/torvalds)
+- [GitHub — standardgalactic](https://github.com/standardgalactic)
+- [GitHub — karpathy](https://github.com/karpathy)
+- [GitHub — gustavoguanabara](https://github.com/gustavoguanabara)
+- [GitHub — Commited](https://github.com/virejdasani/Commited)
+- [GitHub — build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
+- [GitHub Ranking](https://github.com/EvanLi/Github-Ranking)
+- [GitCharts](https://gitcharts.com/)
+
+---
+
+## ⭐ Help build the record book
+
+If this project helped you discover something ridiculous about GitHub, star it and submit records you find.
+
+**The goal: build the biggest public record book of GitHub extremes.**
