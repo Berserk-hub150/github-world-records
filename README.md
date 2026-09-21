@@ -49,7 +49,7 @@ These are current public counts observed around September 21, 2026. The list is 
 | Record | Repository | Current record |
 |---|---|---:|
 | ⭐ **Most stars** | **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | **~548.5k stars** |
-| 🍴 **Most forks** | **[jhudsl/intro_to_data_science](https://github.com/jhudsl/intro_to_data_science)** / historical `datasharing` dataset family | **~241.8k forks** |
+| 🍴 **Most forks** | **[jtleek/datasharing](https://github.com/jtleek/datasharing)** | **~241.8k forks** |
 | 💾 **Most commits — record attempt** | **[virejdasani/Commited](https://github.com/virejdasani/Commited)** | **3,000,007 commits** |
 | 🏗️ **Huge real-project commit history** | **[chromium/chromium](https://github.com/chromium/chromium)** | **1.8M+ commits** |
 | 🐛 **Most open issues currently tracked** | **[996icu/996.ICU](https://github.com/996icu/996.ICU)** | **~16.7k open issues** |
