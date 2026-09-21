@@ -1,0 +1,63 @@
+name: Record Claim
+description: Propose a new GitHub record or challenge an existing one.
+title: "[Record Claim]: "
+labels: ["record-claim"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Record category
+      options:
+        - Most followers
+        - Most following
+        - Most starred repository
+        - Most forked repository
+        - Most commits — any repository
+        - Most commits — real project
+        - Most public repositories
+        - New category
+    validations:
+      required: true
+
+  - type: input
+    id: holder
+    attributes:
+      label: Holder
+      description: GitHub username or owner/repository.
+      placeholder: owner/repository
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: GitHub URL
+      placeholder: https://github.com/...
+    validations:
+      required: true
+
+  - type: input
+    id: value
+    attributes:
+      label: Claimed value
+      placeholder: "123456"
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and verification method
+      description: Explain exactly how another person can reproduce the result.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I verified that the GitHub resource is public.
+          required: true
+        - label: I searched existing issues for the same claim.
+          required: true
