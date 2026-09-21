@@ -1,0 +1,9 @@
+{
+  "generated_at": null,
+  "records": [],
+  "notes": [
+    "Global-search records are derived from GitHub Search API results.",
+    "Candidate-based records are maxima only among the candidates currently listed in data/candidates.json.",
+    "Synthetic record attempts are kept separate from real software projects."
+  ]
+}
