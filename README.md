@@ -4,7 +4,24 @@
 
 **Last checked:** September 21, 2026
 
-> This project is community-maintained and is **not affiliated with GitHub or Guinness World Records**. Counts change constantly, so values are snapshots.
+> This project is community-maintained and is **not affiliated with GitHub or Guinness World Records**. Counts change constantly, so values are snapshots. When GitHub does not expose a true global leaderboard, the record is explicitly marked **currently tracked / observed**.
+
+---
+
+# 🌍 GitHub World Records
+
+| Record | Holder | Value |
+|---|---|---:|
+| 💾 **Most commits in a repository** | **[virejdasani/Commited](https://github.com/virejdasani/Commited)** | **3,000,007 commits** |
+| 🏗️ **Most commits in a real project — currently tracked** | **[chromium/chromium](https://github.com/chromium/chromium)** | **1.8M+ commits** |
+| ⭐ **Most starred repository** | **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | **548,490 stars** |
+| 🍴 **Most forked repository** | **[jtleek/datasharing](https://github.com/jtleek/datasharing)** | **241,816 forks** |
+| 👑 **Most followers — individual currently tracked** | **[Linus Torvalds (@torvalds)](https://github.com/torvalds)** | **~324,000 followers** |
+| 🚀 **Most following — currently tracked** | **[standardgalactic](https://github.com/standardgalactic)** | **~1.3M following** |
+| 📚 **Most public repositories — currently tracked** | **[seanpm2001](https://github.com/seanpm2001)** | **5,000+ repositories** |
+| 🟩 **Most total contributions — currently tracked dataset** | **[steipete](https://github.com/steipete)** | **277,810 total contributions** |
+| 🕰️ **Oldest still-active early GitHub account — currently tracked** | **[defunkt](https://github.com/defunkt)** | **User ID #2 · created Oct 20, 2007 · active in 2026** |
+| 💬 **Biggest issue / PR discussion records currently tracked** | **[openshift/origin#18826](https://github.com/openshift/origin/issues/18826)** / **[snyk-test/goof#1](https://github.com/snyk-test/goof/pull/1)** | **Issue: 2,500 comments · PR: 11,092 review comments + 2,500 comments** |
 
 ---
 
@@ -14,15 +31,43 @@
 
 **[Linus Torvalds (@torvalds)](https://github.com/torvalds)** — **~324,000 followers**
 
-Creator of Linux and Git. This is the largest follower count among individual GitHub developers currently tracked.
+Linus is the most-followed individual GitHub developer currently tracked by this project.
 
 ### 🚀 Most following
 
 **[standardgalactic](https://github.com/standardgalactic)** — **~1.3 MILLION following**
 
-Also has roughly **28.7k followers**. This is the largest GitHub following count currently found by this project.
+The profile also has roughly **28.7k followers**.
 
-> Because GitHub does not provide an official global "sort by following" leaderboard, this record is marked as a **current observed record** rather than an officially exhaustive GitHub ranking.
+GitHub does not provide an official global “sort by following” leaderboard, so this is an **observed record** rather than a guaranteed exhaustive maximum.
+
+### 📚 Most public repositories
+
+**[seanpm2001](https://github.com/seanpm2001)** — **5,000+ public repositories**
+
+GitHub currently renders the profile repository count as **5k+**. This is the largest individual-account repository count currently tracked here.
+
+### 🟩 Most contributions
+
+**[steipete](https://github.com/steipete)** — **277,810 total contributions** in the currently tracked ranking snapshot.
+
+Snapshot detail:
+
+- **78,870 public contributions**
+- **277,810 total contributions**
+- dataset snapshot: **August 8, 2026**
+
+GitHub profile contribution graphs cover contribution activity and may include private activity when users choose to expose it. There is no official GitHub all-users leaderboard, so this record is marked **currently tracked dataset**.
+
+### 🕰️ Oldest active early account
+
+**[Chris Wanstrath (@defunkt)](https://github.com/defunkt)**
+
+- GitHub **user ID #2**
+- account creation timestamp in the early-user dataset: **October 20, 2007**
+- public GitHub activity was still visible in **June 2026**
+
+GitHub user ID #1 is **[@mojombo](https://github.com/mojombo)**, also created October 20, 2007, but the most recent public Gist activity currently visible for that account is older. Therefore this category is specifically **oldest still-active early account currently tracked**, not “oldest account ever”.
 
 ---
 
@@ -40,29 +85,56 @@ Also has roughly **28.7k followers**. This is the largest GitHub following count
 | 8 | **[Brad Traversy (@bradtraversy)](https://github.com/bradtraversy)** | **~76.6k** |
 | 9 | **[Jake Wharton (@JakeWharton)](https://github.com/JakeWharton)** | **~68.7k** |
 
-These are current public counts observed around September 21, 2026. The list is intended to evolve as new records are found.
-
 ---
 
 ## 📦 Repository Records
 
-| Record | Repository | Current record |
-|---|---|---:|
-| ⭐ **Most stars** | **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | **~548.5k stars** |
-| 🍴 **Most forks** | **[jtleek/datasharing](https://github.com/jtleek/datasharing)** | **~241.8k forks** |
-| 💾 **Most commits — record attempt** | **[virejdasani/Commited](https://github.com/virejdasani/Commited)** | **3,000,007 commits** |
-| 🏗️ **Huge real-project commit history** | **[chromium/chromium](https://github.com/chromium/chromium)** | **1.8M+ commits** |
-| 🐛 **Most open issues currently tracked** | **[996icu/996.ICU](https://github.com/996icu/996.ICU)** | **~16.7k open issues** |
+### ⭐ Most starred repository
 
-### 💾 3,000,007 commits
+**[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** — **548,490 stars**
 
-**[virejdasani/Commited](https://github.com/virejdasani/Commited)** was intentionally created as a GitHub commit-record project and GitHub displays **3,000,007 commits**.
+Current ranking snapshot checked September 21, 2026.
 
-It used automated empty commits, so we keep it separate from normal software projects.
+### 🍴 Most forked repository
 
-### 🏗️ Real software project
+**[jtleek/datasharing](https://github.com/jtleek/datasharing)** — **241,816 forks**
 
-**[chromium/chromium](https://github.com/chromium/chromium)** is the official Chromium GitHub mirror and has a commit history above **1.8 million commits**.
+Current ranking snapshot checked September 21, 2026.
+
+### 💾 Most commits in a repository
+
+**[virejdasani/Commited](https://github.com/virejdasani/Commited)** — **3,000,007 commits**
+
+This repository was deliberately created as a commit-record attempt using automated commits, so it is kept separate from ordinary software projects.
+
+### 🏗️ Most commits in a real project — currently tracked
+
+**[chromium/chromium](https://github.com/chromium/chromium)** — **1.8M+ commits**
+
+Chromium's official GitHub mirror has one of the largest real software histories currently tracked in this project.
+
+---
+
+## 💬 Issue & Pull Request Records
+
+### Biggest issue discussion currently tracked
+
+**[openshift/origin#18826 — “[infra] openshift-origin-bot synchronization issues”](https://github.com/openshift/origin/issues/18826)**
+
+**2,500 comments**
+
+The issue was used as a long-running synchronization log, which explains the exceptional number of comments.
+
+### Biggest pull-request discussion currently tracked
+
+**[snyk-test/goof#1 — “test: testing my PR”](https://github.com/snyk-test/goof/pull/1)**
+
+- **11,092 review comments**
+- **2,500 conversation comments**
+- **1 commit**
+- **1 changed file**
+
+GitHub issue/PR search supports sorting by comment count; these values were checked directly from GitHub's public PR metadata.
 
 ---
 
@@ -71,58 +143,71 @@ It used automated empty commits, so we keep it separate from normal software pro
 | Record | Holder | Value |
 |---|---|---:|
 | Most people followed currently found | **[standardgalactic](https://github.com/standardgalactic)** | **~1.3M** |
+| Individual profile with most repositories currently tracked | **[seanpm2001](https://github.com/seanpm2001)** | **5k+** |
 | First repo in this list to exceed 3M commits | **[virejdasani/Commited](https://github.com/virejdasani/Commited)** | **3,000,007** |
-| Most-starred repo currently tracked | **[build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | **~548.5k** |
+| Most-starred repo | **[build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | **548,490** |
 | Most-followed individual currently tracked | **[torvalds](https://github.com/torvalds)** | **~324k** |
+| Oldest active early account currently tracked | **[defunkt](https://github.com/defunkt)** | **GitHub user #2** |
 
 ---
 
-## 🔎 How records are accepted
+## 🔎 Verification status
 
-A record should have:
+### Strong global ranking
 
-- a public GitHub profile/repository;
-- a measurable value visible publicly;
-- a source or reproducible way to verify it;
-- a date when it was checked.
+These metrics can be ranked reproducibly from public GitHub repository data:
 
-If GitHub does not expose a true global ranking for a metric, the README says **currently found**, **currently tracked**, or **observed record** instead of pretending the result is mathematically exhaustive.
+- repository stars
+- repository forks
+- issue / PR comment sorting
+
+### Currently tracked / observed
+
+GitHub does **not** expose a complete official global leaderboard for every user metric. These categories therefore stay explicitly labeled as observed until a stronger exhaustive method is available:
+
+- most following
+- most public repositories
+- most contributions
+- oldest active account
+- largest real-project commit history
+
+If you find a bigger verified holder, open a claim and the README will be updated.
 
 ---
 
 ## 🏁 Submit a new world record
 
-Think you found someone with:
+Found someone with:
 
 - more followers?
 - more following?
 - more public repositories?
+- more contributions?
 - more commits?
-- a crazier contribution streak?
+- an older active account?
+- a bigger issue or pull request?
 - a repository with more stars or forks?
 - another measurable GitHub record?
 
-**[Open a Record Claim](https://github.com/Berserk-hub150/github-world-records/issues/new)** and include the GitHub link + evidence.
+**[Open a Record Claim](https://github.com/Berserk-hub150/github-world-records/issues/new)** and include the GitHub link, value, date checked and evidence.
 
 ---
 
-## 📚 Sources
+## 📚 Sources & verification
 
-Primary values are checked against public GitHub pages. Useful cross-checks include:
+Primary evidence comes from public GitHub profiles, repositories and GitHub issue/PR metadata.
 
-- [GitHub — torvalds](https://github.com/torvalds)
-- [GitHub — standardgalactic](https://github.com/standardgalactic)
-- [GitHub — karpathy](https://github.com/karpathy)
-- [GitHub — gustavoguanabara](https://github.com/gustavoguanabara)
-- [GitHub — Commited](https://github.com/virejdasani/Commited)
-- [GitHub — build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
-- [GitHub Ranking](https://github.com/EvanLi/Github-Ranking)
-- [GitCharts](https://gitcharts.com/)
+Useful cross-checking datasets:
+
+- **[EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking)** — stars and forks
+- **[xiv3r/top-github-users-ranking](https://github.com/xiv3r/top-github-users-ranking)** — user contribution snapshots
+- **[GitHub Community discussion on massive following](https://github.com/orgs/community/discussions/189568)** — observed following counts
+- **[GitHub first-user dataset](https://gist.github.com/joao)** — early account IDs and creation dates
 
 ---
 
 ## ⭐ Help build the record book
 
-If this project helped you discover something ridiculous about GitHub, star it and submit records you find.
+If you find a GitHub record that beats one of these, submit it.
 
 **The goal: build the biggest public record book of GitHub extremes.**
